@@ -1,3 +1,4 @@
+import { ModeToggle } from "../theme-toggle"
 import { Button } from "../ui/button"
 
 export const Navbar = () => {
@@ -8,7 +9,7 @@ export const Navbar = () => {
             </div>
             <div className="flex gap-5">
                 <Button size={"default"} variant={"default"}>Get Started</Button>
-                <Button size={"default"} variant={"secondary"}>Sign In</Button>
+                <ModeToggle />
             </div>
         </div>
     </nav>
